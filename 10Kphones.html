@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>10Kphones.com.gh</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div id="header">
+			<img src="web-images/logo.png">
+				<div class="topnav" id="myTopnav">
+  <a href="Home.html" class="active">Home</a>
+  	<a href="ContactUs.html">Contact Us</a>
+  		<a href="AboutUs.html">About Us</a>
+  			<a href="More.html">More</a>
+  				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    				<i class="fa fa-bars"></i></a>
+    		</div>
+<script type="text/javascript">
+		function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+	</script>
+</div>
+
+<div class="main">
+		<center><h1 class="title">Shop phones</h1></center><hr>
+<div class="categories">
+	
+<div class="category-card">
+				<a href="7+.html">
+					<img src="web-images/8plus.png">
+				</a>
+				<strong><p class="category-name">iPhone7+/128GB</p></strong>
+			</div>
+<div class="category-card">
+				<a href="6s+.html">
+					<img src="web-images/6s.png">
+				</a>
+				<strong><p class="category-name">iPhone6s+/32GB</p></strong>
+			</div>
+			<div class="category-card">
+				<a href="7+.html">
+					<img src="web-images/n8.png">
+				</a>
+				<strong><p class="category-name">SamsungNote8/1sim</p></strong>
+			</div>
+<div class="category-card">
+				<a href="6s+.html">
+					<img src="web-images/n8.png">
+				</a>
+				<strong><p class="category-name">SamsungNote8/2sim</p></strong>
+			</div>
+			<div class="category-card">
+				<a href="samsungN9.html">
+					<img src="web-images/n9.png">
+				</a>
+				<strong><p class="category-name">SamsungNote9/2sim</p></strong>
+			</div>
+			<div class="category-card">
+				<a href="6s.html">
+					<img src="web-images/6s.png">
+				</a>
+				<strong><p class="category-name">iPhone6s/16GB</p></strong>
+			</div>
+<div class="category-card">
+				<a href="6s.html">
+					<img src="web-images/6s.png">
+				</a>
+				<strong><p class="category-name">iPhone6s/32GB</p></strong>
+			</div>
+<div class="category-card">
+				<a href="7.html">
+					<img src="web-images/6s.png">
+				</a>
+				<strong><p class="category-name">iPhone6s/64GB</p></strong>
+			</div>
+</div>
+
+		</div><hr>
+	</div>
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+
+</style>
+</head>
+<body>
+
+<h2></h2>
+<p></p>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="web-images/b.jpg" style="width:90%;height:50%;">
+</div>
+
+<div class="mySlides fade">
+  <img src="web-images/a.jpg" style="width:90%;height:50%;">
+</div>
+
+<div class="mySlides fade">
+  <img src="web-images/c.jpg" style="width:90%;height:50%;">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+
+<div class="main1">
+		<center><h2 class="title">You can also shop...</h2></center><hr>
+<div class="categories">
+	<div class="category-card">
+				<a href="7+.html">
+					<img src="web-images/7+.png">
+				</a>
+				<strong><p class="category-name">iPhone7+/32GB</p></strong>
+			</div>
+<div class="category-card">
+				<a href="X.html">
+					<img src="web-images/X.png">
+				</a>
+				<strong><p class="category-name">iPhoneX/64GB</p></strong>
+			</div>
+<div class="category-card">
+				<a href="X2.html">
+					<img src="web-images/X64w.jpeg">
+				</a>
+				<strong><p class="category-name">iPhoneX/64GB W</p></strong>
+			</div>
+			<div class="category-card">
+				<a href="s8+.html">
+					<img src="web-images/s8plus.png">
+				</a>
+				<strong><p class="category-name">Samsungs8+/1sim</p></strong>
+			</div>
+<div class="category-card">
+				<a href="s8+.html">
+					<img src="web-images/s8plus.png">
+				</a>
+				<strong><p class="category-name">Samsungs8+/2sim</p></strong>
+			</div>
+ <div class="category-card">
+				<a href="s8.html">
+					<img src="web-images/s8.jpg">
+				</a>
+				<strong><p class="category-name">Samsungs8/2sim</p></strong>
+			</div>
+<div class="category-card">
+				<a href="6s+.html">
+					<img src="web-images/7.png">
+				</a>
+				<strong><p class="category-name">iPhone6s+/64GB</p></strong>
+			</div>
+<div class="category-card">
+				<a href="samsungs8.html">
+					<img src="web-images/s8.jpg">
+				</a>
+				<strong><p class="category-name">Samsungs8/1sim</p></strong>
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+<div class="footer"><hr>
+<p>&copy;Andoh-bit Marketting limited, All Rights Reserved.2021</p><hr>
+
+
+
+
+		
+
+	</div>
+
+	 
+
+</body>
+</html>
